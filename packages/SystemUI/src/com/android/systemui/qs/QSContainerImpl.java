@@ -224,7 +224,7 @@ public class QSContainerImpl extends FrameLayout implements
             systemColors = mColorExtractor.getWallpaperColors(WallpaperManager.FLAG_SYSTEM);
         }
         mCurrentColor = mSetQsFromAccent
-                ? getContext().getResources().getColor(R.color.accent_device_default_light)
+                ? getContext().getResources().getColor(R.color.qs_icon_color)
                 : mSetQsFromWall ? mQsBackGroundColorWall : mQsBackGroundColor;
         setQsBackground();
     }
